@@ -13,8 +13,8 @@
       "2 tbsp curry powder",
       "200 ml coconut milk"
     ],
-    "preparing_time": "45",
-    "calories": "380"
+    "preparing_time": 45,
+    "calories": 380
   },
   {
     "recipe_image": "https://images.pexels.com/photos/1653877/pexels-photo-1653877.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
@@ -28,8 +28,8 @@
       "Basil leaves",
       "Olive oil"
     ],
-    "preparing_time": "20",
-    "calories": "250"
+    "preparing_time": 20,
+    "calories": 250
   },
   {
     "recipe_image": "https://images.pexels.com/photos/1213710/pexels-photo-1213710.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
@@ -45,8 +45,8 @@
       "Olive oil",
       "Red wine vinegar"
     ],
-    "preparing_time": "15",
-    "calories": "200"
+    "preparing_time": 15,
+    "calories": 200
   },
   {
     "recipe_image": "https://images.pexels.com/photos/1406501/pexels-photo-1406501.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
@@ -60,8 +60,8 @@
       "100 g Parmesan cheese",
       "Black pepper"
     ],
-    "preparing_time": "25",
-    "calories": "450"
+    "preparing_time": 25,
+    "calories": 450
   },
   {
     "recipe_image": "https://images.pexels.com/photos/11842142/pexels-photo-11842142.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
@@ -76,8 +76,8 @@
       "200 ml milk",
       "100 g blueberries"
     ],
-    "preparing_time": "30",
-    "calories": "300"
+    "preparing_time": 30,
+    "calories": 300
   },
   {
     "recipe_image": "https://images.pexels.com/photos/11654228/pexels-photo-11654228.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
@@ -93,7 +93,7 @@
       "Salt",
       "Black pepper"
     ],
-    "preparing_time": "15",
-    "calories": "220"
+    "preparing_time": 15,
+    "calories": 220
   }
 ]
