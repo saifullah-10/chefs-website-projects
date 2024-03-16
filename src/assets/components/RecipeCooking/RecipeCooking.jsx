@@ -2,7 +2,7 @@ import { useState } from "react";
 import Cooking from "./Cooking/Cooking";
 import OrderInfo from "./OrderInfo/OrderInfo";
 import { useEffect } from "react";
-
+import toast, { Toaster } from "react-hot-toast";
 const RecipeCooking = () => {
   const [recipes, setRecipes] = useState([]);
   const [orders, setOrders] = useState([]);
@@ -14,7 +14,7 @@ const RecipeCooking = () => {
   }, []);
   const handleRecipe = (recipe) => {
     if (orders.find((order) => order.recipe_id == recipe.recipe_id)) {
-      // console.log("found");
+      toast.error("Already Added");
     } else {
       const setData = [...orders, recipe];
       setOrders(setData);
@@ -49,6 +49,7 @@ const RecipeCooking = () => {
                 handleRecipe={handleRecipe}
               ></Cooking>
             ))}
+            <Toaster></Toaster>
           </div>
           <div className="lg:w-[40%] border-2 rounded-3xl lg:p-6 p-4 lg:self-start ">
             <OrderInfo
