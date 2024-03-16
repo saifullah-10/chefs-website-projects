@@ -3,10 +3,10 @@ import SearchIcon from "./images/search_icon.svg";
 const Header = () => {
   return (
     <>
-      <section className="max-w-[1600px] lg:w-[82%] w-[98%] mx-auto lg:mt-6">
+      <section className="max-w-[1600px] lg:w-[82%] w-[98%] mx-auto lg:mt-6 font-['Lexend']">
         <div className="lg:navbar max-sm:w-full bg-base-100 flex-col lg:flex-row">
           <div className="lg:navbar-start lg:flex-1 flex w-full justify-between lg:justify-normal lg:block mb-4 lg:mb-0">
-            <div className="dropdown">
+            <div className="dropdown text-[#150b2bb3]">
               <div
                 tabIndex={0}
                 role="button"
@@ -32,38 +32,36 @@ const Header = () => {
                 className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
               >
                 <li>
-                  <a>Item 1</a>
+                  <a>Home</a>
                 </li>
                 <li>
-                  <a>Parent</a>
-                  <ul className="p-2">
-                    <li>
-                      <a>Submenu 1</a>
-                    </li>
-                    <li>
-                      <a>Submenu 2</a>
-                    </li>
-                  </ul>
+                  <a>Recipes</a>
                 </li>
                 <li>
-                  <a>Item 3</a>
+                  <a>About</a>
+                </li>
+                <li>
+                  <a>Search</a>
                 </li>
               </ul>
             </div>
-            <a className="btn bg-transparent hover:bg-transparent border-none text-[#150B2B] lg:text-3xl text-xl font-bold ">
+            <a className="btn  bg-transparent hover:bg-transparent border-none text-[#150B2B] lg:text-3xl text-xl font-bold ">
               ISTANA COOKING
             </a>
           </div>
           <div className="navbar-center lg:flex-1 justify-center  hidden lg:flex">
-            <ul className="menu menu-horizontal px-1">
+            <ul className="menu menu-horizontal px-1 text-[#150b2bb3] ">
               <li>
-                <a>Item 1</a>
+                <a>Home</a>
               </li>
               <li>
-                <a href="#">Item2</a>
+                <a href="#">Recipes</a>
               </li>
               <li>
-                <a>Item 3</a>
+                <a>About</a>
+              </li>
+              <li>
+                <a>Search</a>
               </li>
             </ul>
           </div>

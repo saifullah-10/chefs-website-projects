@@ -12,16 +12,16 @@ const OrderInfo = ({ orders, handleCurrentlyCook, currents }) => {
     <>
       <div>
         <div>
-          <div className="flex flex-col items-center">
-            <div>
-              <h1>
+          <div className="flex flex-col items-center font-['Fira_Sans']">
+            <div className="border-b-2 font-['Lexend']">
+              <h1 className="text-[#282828] text-2xl font-semibold pb-2">
                 Want to cook: <span>{orders.length}</span>
               </h1>
             </div>
             <div className="w-full">
               <table className="w-full">
                 <thead>
-                  <tr>
+                  <tr className="text-[#878787] ">
                     <th></th>
                     <th>Name</th>
                     <th>Time</th>
@@ -32,7 +32,7 @@ const OrderInfo = ({ orders, handleCurrentlyCook, currents }) => {
                 <tbody>
                   {orders.length !== 0 ? (
                     orders.map((order, index) => (
-                      <tr key={index}>
+                      <tr key={index} className="">
                         <td>{index + 1}</td>
                         <td>{order.recipe_name}</td>
                         <td>{order.preparing_time} min</td>
@@ -40,7 +40,7 @@ const OrderInfo = ({ orders, handleCurrentlyCook, currents }) => {
                         <td>
                           <button
                             onClick={() => handleCurrentlyCook(order)}
-                            className="px-3 py-1 bg-[#0BE58A] rounded-full"
+                            className="px-3 py-1 bg-[#0BE58A] rounded-full font-medium"
                           >
                             Preparing
                           </button>
@@ -56,13 +56,15 @@ const OrderInfo = ({ orders, handleCurrentlyCook, currents }) => {
               </table>
             </div>
 
-            <div>
-              <h1>Currently cooking: {currents.length}</h1>
+            <div className="border-b-2 font-['Lexend']">
+              <h1 className="text-[#282828] text-2xl font-semibold pb-2">
+                Currently cooking: {currents.length}
+              </h1>
             </div>
             <div className="w-full">
               <table className="w-full">
                 <thead>
-                  <tr>
+                  <tr className="text-[#878787]">
                     <th></th>
                     <th>Name</th>
                     <th>Time</th>

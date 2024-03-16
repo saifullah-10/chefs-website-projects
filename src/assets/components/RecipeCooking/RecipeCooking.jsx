@@ -31,13 +31,14 @@ const RecipeCooking = () => {
 
   return (
     <>
-      <section className="max-w-[1600px] lg:w-[82%] w-[98%] mx-auto mt-4 lg:mt-6">
+      <section className="max-w-[1600px] lg:w-[82%] w-[98%] mx-auto mt-4 lg:mt-6 font-['Lexend']">
         <div className="lg:mb-14">
-          <h1>Our Recipes</h1>
-          <p>
-            Lorem ipsum dolor sit amet consectetur. Proin et feugiat senectus
-            vulputate netus pharetra rhoncus. Eget urna volutpat curabitur
-            elementum mauris aenean neque.
+          <h1 className="text-[#150B2B] text-center text-4xl font-semibold">
+            Our Recipes
+          </h1>
+          <p className="text-[#150b2b99] lg:w-[70%] w-[95%] text-center mx-auto mt-5 max-sm:mb-8">
+            This is our trending recipes. You can explore for more recipes.
+            Thank you.
           </p>
         </div>
         <div className="flex flex-col lg:flex-row gap-5">
