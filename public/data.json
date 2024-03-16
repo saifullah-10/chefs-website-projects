@@ -1,6 +1,6 @@
 [
   {
-    "recipe_image": "https://images.pexels.com/photos/5713761/pexels-photo-5713761.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "recipe_image": "https://images.pexels.com/photos/9218754/pexels-photo-9218754.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     "recipe_id": "001",
     "recipe_name": "Chicken Curry",
     "short_description": "A classic Indian chicken curry with a rich and aromatic sauce.",
@@ -13,11 +13,11 @@
       "2 tbsp curry powder",
       "200 ml coconut milk"
     ],
-    "preparing_time": "45 min",
-    "calories": "380 calories"
+    "preparing_time": "45",
+    "calories": "380"
   },
   {
-    "recipe_image": "https://images.pexels.com/photos/16557663/pexels-photo-16557663/free-photo-of-top-view-of-a-pizza-with-herbs.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "recipe_image": "https://images.pexels.com/photos/1653877/pexels-photo-1653877.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     "recipe_id": "002",
     "recipe_name": "Margherita Pizza",
     "short_description": "A simple and delicious pizza topped with fresh tomato sauce, mozzarella, and basil.",
@@ -28,8 +28,8 @@
       "Basil leaves",
       "Olive oil"
     ],
-    "preparing_time": "20 min",
-    "calories": "250 calories"
+    "preparing_time": "20",
+    "calories": "250"
   },
   {
     "recipe_image": "https://images.pexels.com/photos/1213710/pexels-photo-1213710.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
@@ -45,8 +45,8 @@
       "Olive oil",
       "Red wine vinegar"
     ],
-    "preparing_time": "15 min",
-    "calories": "200 calories"
+    "preparing_time": "15",
+    "calories": "200"
   },
   {
     "recipe_image": "https://images.pexels.com/photos/1406501/pexels-photo-1406501.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
@@ -60,8 +60,8 @@
       "100 g Parmesan cheese",
       "Black pepper"
     ],
-    "preparing_time": "25 min",
-    "calories": "450 calories"
+    "preparing_time": "25",
+    "calories": "450"
   },
   {
     "recipe_image": "https://images.pexels.com/photos/11842142/pexels-photo-11842142.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
@@ -76,8 +76,8 @@
       "200 ml milk",
       "100 g blueberries"
     ],
-    "preparing_time": "30 min",
-    "calories": "300 calories"
+    "preparing_time": "30",
+    "calories": "300"
   },
   {
     "recipe_image": "https://images.pexels.com/photos/11654228/pexels-photo-11654228.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
@@ -93,7 +93,7 @@
       "Salt",
       "Black pepper"
     ],
-    "preparing_time": "15 min",
-    "calories": "220 calories"
+    "preparing_time": "15",
+    "calories": "220"
   }
 ]
